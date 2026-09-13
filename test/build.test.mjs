@@ -5,7 +5,7 @@ import { join } from 'node:path';
 import test from 'node:test';
 import JSZip from 'jszip';
 
-test('build writes ten historical slides with complete speaker notes', async () => {
+test('build writes fifteen historical slides with complete speaker notes', async () => {
   const { buildPresentation } = await import('../src/build.js');
   const directory = mkdtempSync(join(tmpdir(), 'constructivism-pptx-'));
   const outputPath = join(directory, 'scaffold.pptx');
@@ -17,8 +17,8 @@ test('build writes ten historical slides with complete speaker notes', async () 
     const archive = readFileSync(outputPath);
     assert.equal(archive.subarray(0, 4).toString('hex'), '504b0304');
     const packageContents = await JSZip.loadAsync(archive);
-    assert.equal(packageContents.file(/^ppt\/slides\/slide\d+\.xml$/).length, 10);
-    for (let i = 1; i <= 10; i++) {
+    assert.equal(packageContents.file(/^ppt\/slides\/slide\d+\.xml$/).length, 15);
+    for (let i = 1; i <= 15; i++) {
       const slide = await packageContents.file(`ppt/slides/slide${i}.xml`).async('string');
       assert.doesNotMatch(slide, /ТЕХНИЧЕСКИЙ|Текст спикера|Источники и материалы/);
       const notes = await packageContents.file(`ppt/notesSlides/notesSlide${i}.xml`).async('string');

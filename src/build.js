@@ -3,6 +3,7 @@ import { dirname, resolve } from 'node:path';
 import pptxgen from 'pptxgenjs';
 import { addOpeningSlides } from './slides/opening.js';
 import { addArchitectureSlides } from './slides/architecture.js';
+import { addIndustryAndGraphicsSlides } from './slides/industry-and-graphics.js';
 import { theme } from './theme.js';
 
 export async function buildPresentation(outputPath = resolve('output/soviet-constructivism.pptx')) {
@@ -16,6 +17,7 @@ export async function buildPresentation(outputPath = resolve('output/soviet-cons
   pptx.theme = { headFontFace: theme.fonts.display, bodyFontFace: theme.fonts.body, lang: 'ru-RU' };
   addOpeningSlides(pptx);
   addArchitectureSlides(pptx);
+  addIndustryAndGraphicsSlides(pptx);
   await mkdir(dirname(outputPath), { recursive: true });
   await pptx.writeFile({ fileName: outputPath });
   return outputPath;
