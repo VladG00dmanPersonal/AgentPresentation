@@ -22,5 +22,19 @@
     "03",
     "04",
     "05"
-  ]
+  ],
+  "pendingRevision": {
+    "date": "2026-09-13",
+    "status": "blocked_by_figma_mcp_starter_limit",
+    "slideIds": [
+      "4:2",
+      "4:18",
+      "4:69",
+      "4:37",
+      "4:52"
+    ],
+    "script": "revise.js",
+    "speakerNotesOrder": "target slide order; not yet applied in Figma",
+    "verifiedVisually": false
+  }
 }
