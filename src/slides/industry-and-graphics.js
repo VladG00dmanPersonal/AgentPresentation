@@ -60,6 +60,74 @@ function lissitzky(pptx) {
   text(s, 'Супрематическая\nгеометрия', 8.2, 5.86, 4.55, 0.76, 23, { color: red, bold: true });
 }
 
+function pencils(pptx) {
+  const s = base(pptx, 16, 'РЕКЛАМА И ПРОИЗВОДСТВО / «МОСПОЛИГРАФ» / 1923');
+  title(s, 'КАРАНДАШ\nКАК ОБРАЗ\nПРОИЗВОДСТВА', 0.55, 1.0, 5.03, 2.0, 36);
+  photo(s, '../posters/Маяковский.jpg', 6.22, 0.92, 3.48, 5.82);
+  addRect(s, { x: 10.1, y: 1.18, w: 0.13, h: 3.4, fill: red });
+  text(s, 'Повторение\nпредмета', 10.52, 1.24, 2.2, 0.82, 26, { bold: true });
+  text(s, 'Фабричные\nформы', 10.52, 2.47, 2.2, 0.82, 26, { bold: true });
+  text(s, 'Короткий\nпризыв', 10.52, 3.7, 2.2, 0.82, 26, { bold: true, color: red });
+  text(s, 'Александр Родченко — изображение\nВладимир Маяковский — текст', 0.58, 5.48, 5.15, 0.75, 18, { color: muted });
+  label(s, 'КОМПОЗИЦИЯ 1923 ГОДА · РЕПРОДУКЦИЯ НЕ ЯВЛЯЕТСЯ СКАНОМ ОТТИСКА', 0.58, 6.47, 11.9, red);
+}
+
+function rubberTrust(pptx) {
+  const s = base(pptx, 17, 'РЕКЛАМА «РЕЗИНОТРЕСТА» / ЗАМЫСЕЛ 1923');
+  photo(s, '../posters/Маяковский2.png', 0.55, 0.92, 4.05, 5.93);
+  title(s, 'РЕКЛАМА\nУМЕЕТ ШУТИТЬ', 5.05, 1.08, 7.35, 1.12, 39);
+  text(s, 'Геометрический\nперсонаж', 5.08, 2.74, 3.4, 0.9, 27, { bold: true });
+  text(s, 'Рифма', 9.09, 2.74, 3.28, 0.45, 27, { bold: true });
+  text(s, 'Преувеличение', 9.09, 3.44, 3.28, 0.45, 27, { bold: true, color: red });
+  addLine(s, { x: 5.08, y: 4.31, w: 7.28, color: red, width: 2 });
+  text(s, 'Александр Родченко — изображение\nВладимир Маяковский — текст', 5.08, 4.64, 6.95, 0.72, 19, { color: muted });
+  addRect(s, { x: 5.05, y: 5.75, w: 7.35, h: 0.66, fill: red });
+  text(s, 'КОМПОЗИЦИЯ ИЗВЕСТНА ПО ПОЗДНЕЙ РЕКОНСТРУКЦИИ', 5.28, 5.94, 6.9, 0.28, 15, { bold: true, color: paper });
+}
+
+function lengiz(pptx) {
+  const s = base(pptx, 18, '«ЛЕНГИЗ. КНИГИ ПО ВСЕМ ОТРАСЛЯМ ЗНАНИЯ» / 1925');
+  photo(s, '../posters/Маяковский3.png', 0.55, 1.23, 8.28, 5.45);
+  title(s, 'КАК ПОКАЗАТЬ\nГОЛОС?', 9.25, 1.25, 3.5, 1.32, 32);
+  addRect(s, { x: 9.25, y: 3.07, w: 0.13, h: 1.96, fill: red });
+  text(s, 'Фотография', 9.67, 3.06, 2.92, 0.43, 23, { bold: true });
+  text(s, 'Жест', 9.67, 3.76, 2.92, 0.43, 23, { bold: true });
+  text(s, 'Направленное\nслово', 9.67, 4.46, 2.92, 0.78, 23, { bold: true, color: red });
+  text(s, 'Александр Родченко\nЛиля Брик', 9.26, 5.83, 3.25, 0.58, 18, { color: muted });
+  label(s, 'КОМПОЗИЦИЯ ИЗВЕСТНА ТАКЖЕ В РЕКОНСТРУКЦИИ 1960-х', 0.58, 6.68, 8.4, red);
+}
+
+function beer(pptx) {
+  const s = base(pptx, 19, '«ТРЁХГОРНОЕ ПИВО» / 1925');
+  title(s, 'ЧТО ИМЕННО\nОБЕЩАЕТ РЕКЛАМА?', 0.55, 1.02, 6.45, 1.35, 37);
+  photo(s, '../posters/Маяковский4.png', 7.65, 0.92, 4.05, 5.95);
+  text(s, 'Товар\nв центре', 0.58, 3.03, 2.52, 0.77, 28, { bold: true });
+  addLine(s, { x: 3.32, y: 3.41, w: 2.38, color: red, width: 2 });
+  text(s, 'Направленные\nлинии', 0.58, 4.24, 3.12, 0.77, 28, { bold: true });
+  addRect(s, { x: 0.55, y: 5.6, w: 6.43, h: 0.7, fill: red });
+  text(s, 'ВЫТЕСНЕНИЕ ДРУГИХ НАПИТКОВ — РЕКЛАМНОЕ ОБЕЩАНИЕ', 0.75, 5.79, 6.1, 0.27, 14, { bold: true, color: paper });
+  text(s, 'Александр Родченко — изображение\nВладимир Маяковский — текст', 0.58, 6.43, 6.6, 0.37, 16, { color: muted });
+}
+
+function conclusion(pptx) {
+  const s = base(pptx, 20, 'ВЫВОД / СОЕДИНЯЯ АРХИТЕКТУРУ И ГРАФИКУ');
+  title(s, 'СПРОЕКТИРОВАТЬ ФОРМУ —\nПОВЛИЯТЬ НА ЖИЗНЬ', 0.55, 0.96, 12.15, 1.25, 37);
+  const rows = [
+    ['ОБЩЕСТВЕННАЯ ЗАДАЧА', 'Жильё · труд · досуг · информация'],
+    ['ОРГАНИЗАЦИЯ ФОРМЫ', 'Пространство · конструкция · изображение · слово'],
+    ['ПОВСЕДНЕВНОСТЬ', 'Новые возможности и ограничения'],
+  ];
+  rows.forEach(([head, body], i) => {
+    const y = 2.72 + i * 1.17;
+    label(s, `0${i + 1}`, 0.6, y + 0.06, 0.42, red);
+    text(s, head, 1.16, y, 4.32, 0.36, 20, { bold: true });
+    text(s, body, 5.65, y, 6.92, 0.45, 21);
+    if (i < rows.length - 1) addLine(s, { x: 1.15, y: y + 0.73, w: 11.42, color: theme.colors.rule });
+  });
+  addRect(s, { x: 0.55, y: 6.2, w: 12.23, h: 0.47, fill: red });
+  text(s, 'КАК ЭПОХА МЕНЯЕТ ГОРОД?', 0.78, 6.29, 11.7, 0.19, 18, { bold: true, color: paper, align: 'center' });
+}
+
 export function addIndustryAndGraphicsSlides(pptx) {
-  [kitchen, bakery, palace, attention, lissitzky].forEach((compose) => compose(pptx));
+  [kitchen, bakery, palace, attention, lissitzky, pencils, rubberTrust, lengiz, beer, conclusion].forEach((compose) => compose(pptx));
 }

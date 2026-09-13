@@ -17,10 +17,10 @@ The deck is written to `output/soviet-constructivism.pptx`. For a visual review,
 - `src/primitives.js` — reusable text, geometry, image sizing, footer, and speaker-notes helpers.
 - `src/slides/opening.js` — five individually composed opening slides; the old scaffold is not included.
 - `src/slides/architecture.js` — second batch, slides 06–10: Gosprom, Melnikov House, workers’ clubs, Narkomfin, and Nikolaev’s communal house.
-- `src/slides/industry-and-graphics.js` — third batch, slides 11–15: Vasileostrovsky factory-kitchen, Bakery No. 5, Palace of Soviets, transition to graphic design, and El Lissitzky.
+- `src/slides/industry-and-graphics.js` — third and final batches, slides 11–20: industrial architecture, the transition to graphic design, posters by El Lissitzky and Rodchenko, and the conclusion.
 - `src/slides/shared.js` — shared composition helpers and editorial speaker notes.
 - `src/build.js` — deck assembly and output.
 
-The current deck contains slides 01–15 in three design batches. `slides.md` is editorial source for the future 20-slide deck. Visible content and layouts are individually authored; only speaker notes, sources, and editorial comments are read from the corresponding source sections. Display headlines use DejaVu Sans Condensed; install that font on a presenting machine or use the PDF to preserve appearance.
+The current deck contains all 20 slides in four design batches. `slides.md` is editorial source material. Visible content and layouts are individually authored; only speaker notes, sources, and editorial comments are read from the corresponding source sections. Display headlines use DejaVu Sans Condensed; install that font on a presenting machine or use the PDF to preserve appearance.
 
 Read `references/visual-direction.md` before adding slides. Develop representative prototypes first, render them for review, agree the visual system, then expand the deck.
