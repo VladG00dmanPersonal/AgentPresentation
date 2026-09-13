@@ -2,12 +2,13 @@
 
 ## Здание Госпрома
 
-### Assets:
+### Assets
+
 - ![assets/architecture/ЗданиеГоспрома.webp](../assets/architecture/ЗданиеГоспрома.webp)
 - ![assets/architecture/ЗданиеГоспрома2.jpg](../assets/architecture/ЗданиеГоспрома2.jpg)
 - ![assets/architecture/ЗданиеГоспрома3.jpg](../assets/architecture/ЗданиеГоспрома3.jpg)
-- assets/architecture/ЗданиеГоспрома4.jpg
-- assets/architecture/ЗданиеГоспрома5.jpg
+- ![assets/architecture/ЗданиеГоспрома4.jpg](../assets/architecture/ЗданиеГоспрома4.jpg)
+- ![assets/architecture/ЗданиеГоспрома5.jpg](../assets/architecture/ЗданиеГоспрома5.jpg)
 
 ### Content
 
@@ -21,7 +22,8 @@
 
 ## Дом Наркомфина
 
-### Assets:
-- assets/architecture/ДомНаркомфина.jpg
-- assets/architecture/ДомНаркомфина2.jpg
-- 
+### Assets
+
+- ![assets/architecture/ДомНаркомфина.jpg](../assets/architecture/ДомНаркомфина.jpg)
+- ![assets/architecture/ДомНаркомфина2.jpg](../assets/architecture/ДомНаркомфина2.jpg)
+- ![assets/architecture/ДомНаркомфина3.png](../assets/architecture/ДомНаркомфина3.png)
