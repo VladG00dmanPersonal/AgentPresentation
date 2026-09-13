@@ -31,7 +31,12 @@ Never invent captions, dates, architects, artists, quotations, or facts.
 
 # Design freedom
 
-You may decide:
+Before any design work, read and follow the established
+[visual direction](references/visual-direction.md).
+The deck uses Soviet print aesthetics of the 1920s–1930s with Constructivist influences.
+Future visual variants and prototypes must develop this direction.
+
+Within this direction, you may decide:
 - typography;
 - grid;
 - spacing;
@@ -55,7 +60,7 @@ Do not design the entire deck immediately.
 
 First:
 1. understand the narrative;
-2. propose 2–3 visual directions;
+2. propose 2–3 visual variants within the established direction;
 3. create representative prototype slides;
 4. discuss them with the user;
 5. establish the visual system;

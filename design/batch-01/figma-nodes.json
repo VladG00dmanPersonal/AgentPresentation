@@ -1,0 +1,26 @@
+{
+  "fileKey": "lNMybuIlB1rY2xxwmzgyJ6",
+  "slideIds": [
+    "4:2",
+    "4:18",
+    "4:37",
+    "4:52",
+    "4:69"
+  ],
+  "images": {
+    "narkomfin": "4:11",
+    "tatlin": "4:38",
+    "trotsky": "4:57",
+    "vesnin": "4:61",
+    "gosprom": "4:87"
+  },
+  "url": "https://www.figma.com/slides/lNMybuIlB1rY2xxwmzgyJ6",
+  "source": "slides.md",
+  "verifiedVisually": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ]
+}
