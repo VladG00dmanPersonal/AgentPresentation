@@ -14,11 +14,11 @@ school
 
 ## Duration
 
-Approximately 10 minutes.
+Approximately 10-15 minutes.
 
 ## Expected size
 
-Approximately 12 slides.
+Approximately 15-20 slides.
 
 ## Primary goal
 
