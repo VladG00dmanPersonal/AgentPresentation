@@ -78,4 +78,8 @@ The agent controls:
 - typography;
 - graphic language.
 
+## Production workflow
+
+Generate the final deck with PptxGenJS. `slides.md` remains editorial source material rather than a template for automatic Markdown-to-slide conversion. Develop and render prototype slides before expanding the deck; keep speaker text and sources out of visible slide content unless deliberately selected.
+
 Important aesthetic decisions should be discussed rather than silently assumed.

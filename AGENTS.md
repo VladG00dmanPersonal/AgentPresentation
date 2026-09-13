@@ -3,7 +3,7 @@
 We are creating a historical presentation about Soviet Constructivism
 of the 1920s–1930s.
 
-The final presentation is designed in Figma.
+The final presentation is generated with Node.js and PptxGenJS.
 
 You act as both:
 - presentation art director;
@@ -72,3 +72,11 @@ After each substantial batch, review your own work for:
 - consistency;
 - excessive repetition;
 - historical appropriateness.
+
+## Generator workflow
+
+Use PptxGenJS as the sole presentation generator. Do not use Figma scripts, Figma exports, or Figma node identifiers as part of the deck workflow.
+
+`slides.md` is editorial source material, not a slide-generation template. Build each slide as a bespoke composition and keep speaker text, sources, and editorial notes out of visible slide content unless explicitly selected.
+
+Render prototype and substantial batches for visual review before expanding the deck. Verify the final `.pptx` opens successfully and preserves its notes.
